@@ -1,5 +1,5 @@
 <!-- start of README -->
-<h1>JupyterPilot Package</h1>
+<h1>Jupyter Pilot Package</h1>
 <p>JupyterPilot is a Python package that allows you to generate code in a Jupyter Notebook using OpenAI's GPT-3 API. The package takes a prompt as an input and returns code that you can use in your notebook.</p>
 <h2>Installation</h2>
 <p>To install JupyterPilot, use pip:</p>
