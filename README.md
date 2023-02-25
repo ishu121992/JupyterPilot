@@ -10,8 +10,7 @@
 <pre><code>from JupyterPilot import api
 
 openai_key = 'YOUR_OPENAI_API_KEY'
-cc = api.CodetoCell(openai_key)
-</code></pre>
+cc = api.CodetoCell(openai_key)</code></pre>
 <p>Next, you can generate code by calling the <code>get_code</code> method and passing in a prompt:</p>
 <pre><code>prompt = 'Create a list of the first 10 even numbers.'
 cc.get_code(prompt)
