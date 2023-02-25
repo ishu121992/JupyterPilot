@@ -1,9 +1,6 @@
 <!-- start of README -->
 <h1>JupyterPilot</h1>
 
-## Authors
-- [@ishu121992](https://www.github.com/ishu121992)
-
 <p>JupyterPilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers.</p>
 
 <h2>Installation</h2>
@@ -45,6 +42,8 @@ cc.get_code(prompt)</code></pre>
 <p>You can increase the number of tokens by setting the <code>tokens</code> parameter to a larger value. The maximum number of tokens supported by the <code>code-cushman-001</code> model is 2048, while the <code>code-davinci-002</code> model supports up to 8000 tokens.</p>
 
 <h2>License</h2>
+## Authors
+- [@ishu121992](https://www.github.com/ishu121992)
 
 <p>JupyterPilot is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 <!-- end of README -->
