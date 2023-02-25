@@ -1,3 +1,4 @@
+<!-- start of README -->
 <h1>JupyterPilot</h1>
 
 <p>JupyterPilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers.</p>
@@ -6,9 +7,7 @@
 
 <p>To install JupyterPilot, simply run:</p>
 
-<pre><code>pip install git+https://github.com/USERNAME/JupyterPilot.git</code></pre>
-
-<p>Replace <code>USERNAME</code> with the GitHub username associated with the repository.</p>
+<pre><code>pip install JupyterPilot</code></pre>
 
 <h2>Usage</h2>
 
@@ -19,12 +18,12 @@
 <p>Then, create an instance of <code>CodetoCell</code> with your OpenAI API key:</p>
 
 <pre><code>openai_key = "YOUR_API_KEY"
-codetocell = CodetoCell(openai_key)</code></pre>
+cc = CodetoCell(openai_key)</code></pre>
 
 <p>Call the <code>get_code</code> method with a natural language prompt to generate code:</p>
 
-<pre><code>prompt = "import pandas as pd\npd.read"
-codetocell.get_code(prompt)</code></pre>
+<pre><code>prompt = "Create a function to get stock data from yahoo finance api"
+cc.get_code(prompt)</code></pre>
 
 <p>This will create a file called <code>test1.py</code> with the generated code and import statements, and then load the code into a Jupyter Notebook cell for further use.</p>
 
@@ -45,3 +44,4 @@ codetocell.get_code(prompt)</code></pre>
 <h2>License</h2>
 
 <p>JupyterPilot is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+<!-- end of README -->
