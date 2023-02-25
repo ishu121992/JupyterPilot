@@ -41,9 +41,9 @@ cc.get_code(prompt)</code></pre>
 
 <p>You can increase the number of tokens by setting the <code>tokens</code> parameter to a larger value. The maximum number of tokens supported by the <code>code-cushman-001</code> model is 2048, while the <code>code-davinci-002</code> model supports up to 8000 tokens.</p>
 
-<h2>License</h2>
-## Authors
-- [@ishu121992](https://www.github.com/ishu121992)
+<h2>Authors</h2>
+<p>[@ishu121992](https://www.github.com/ishu121992)</p>
 
+<h2>License</h2>
 <p>JupyterPilot is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 <!-- end of README -->
