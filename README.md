@@ -3,14 +3,14 @@
 <p>CodetoCell is a Python package that allows you to generate code in a Jupyter Notebook using OpenAI's GPT-3 API. The package takes a prompt as an input and returns code that you can use in your notebook.</p>
 <h2>Installation</h2>
 <p>To install CodetoCell, use pip:</p>
-<pre><code>pip install codetocell
+<pre><code>pip install JupyterPilot
 </code></pre>
 <h2>Usage</h2>
-<p>To use CodetoCell, you'll first need to import the package and create an instance of the <code>CodetoCell</code> class:</p>
-<pre><code>import codetocell
+<p>To use JupyterPilot, you'll first need to import the package and create an instance of the <code>CodetoCell</code> class:</p>
+<pre><code>from JupyterPilot import api
 
 openai_key = 'YOUR_OPENAI_API_KEY'
-cc = codetocell.CodetoCell(openai_key)
+cc = api.CodetoCell(openai_key)
 </code></pre>
 <p>Next, you can generate code by calling the <code>get_code</code> method and passing in a prompt:</p>
 <pre><code>prompt = 'Create a list of the first 10 even numbers.'
