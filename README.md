@@ -1,5 +1,5 @@
 <!-- start of README -->
-<h1>JupyterPilot</h1>
+<h1>Jupyter Pilot</h1>
 
 <p>Jupyter Pilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers.</p>
 
