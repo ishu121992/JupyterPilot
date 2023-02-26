@@ -11,7 +11,7 @@
 
 <h2>Usage</h2>
 
-<p>To use JupyterPilot, import the <code>CodetoCell</code> class from the <code>JupyterPilot.api</code> module:</p>
+<p>To use JupyterPilot, import the <code>pysetup</code> class from the <code>jupyterpilot</code> module:</p>
 
 <pre><code>from jupyterpilot import pysetup</code></pre>
 
