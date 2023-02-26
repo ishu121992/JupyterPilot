@@ -1,24 +1,24 @@
 <!-- start of README -->
 <h1>JupyterPilot</h1>
 
-<p>JupyterPilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers.</p>
+<p>Jupyter Pilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers.</p>
 
 <h2>Installation</h2>
 
-<p>To install JupyterPilot, simply run:</p>
+<p>To install Jupyter Pilot, simply run:</p>
 
-<pre><code>pip install JupyterPilot</code></pre>
+<pre><code>pip install jupyterpilot</code></pre>
 
 <h2>Usage</h2>
 
 <p>To use JupyterPilot, import the <code>CodetoCell</code> class from the <code>JupyterPilot.api</code> module:</p>
 
-<pre><code>from JupyterPilot.api import CodetoCell</code></pre>
+<pre><code>from jupyterpilot import pysetup</code></pre>
 
 <p>Then, create an instance of <code>CodetoCell</code> with your OpenAI API key:</p>
 
 <pre><code>openai_key = "YOUR_API_KEY"
-cc = CodetoCell(openai_key)</code></pre>
+cc = pysetup.CodetoCell(openai_key)</code></pre>
 
 <p>Call the <code>get_code</code> method with a natural language prompt to generate code:</p>
 
@@ -31,7 +31,7 @@ cc.get_code(prompt)</code></pre>
 
 <p>You can pass options to the <code>CodetoCell</code> constructor to customize its behavior:</p>
 
-<pre><code>codetocell = CodetoCell(
+<pre><code>cc = pysetup.CodetoCell(
     openai_key=openai_key,
     model="code-cushman-001", # Choose a different model (optional)
     tokens=2048 # Increase the number of tokens (optional)
