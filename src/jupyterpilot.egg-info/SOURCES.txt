@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/jupyterpilot/__init__.py
+src/jupyterpilot/pysetup.py
+src/jupyterpilot.egg-info/PKG-INFO
+src/jupyterpilot.egg-info/SOURCES.txt
+src/jupyterpilot.egg-info/dependency_links.txt
+src/jupyterpilot.egg-info/requires.txt
+src/jupyterpilot.egg-info/top_level.txt
