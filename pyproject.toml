@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyterpilot"
+version = "0.0.8"
+authors = [
+  { name="Eeshan", email="mishra.eeshan@gmail.com" },
+]
+description = "Jupyter Pilot is a Python package that uses the OpenAI API to generate code from natural language prompts. It is designed to simplify the process of writing code and to make programming more accessible to non-programmers."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ishu121992/JupyterPilot"
+"Bug Tracker" = "https://github.com/ishu121992/JupyterPilot/issues"
