@@ -5,7 +5,7 @@
 
 <h2>Installation</h2>
 
-<p>To install Jupyter Pilot, simply run:</p>
+<p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.8/">Pypi Link</a>, simply run:</p>
 
 <pre><code>pip install jupyterpilot</code></pre>
 
@@ -25,7 +25,7 @@ cc = pysetup.CodetoCell(openai_key)</code></pre>
 <pre><code>prompt = "Create a function to get stock data from yahoo finance api"
 cc.get_code(prompt)</code></pre>
 
-<p>This will create a file called <code>test1.py</code> with the generated code and import statements, and then load the code into a Jupyter Notebook cell for further use.</p>
+<p>This will create a file called <code>test.py</code> with the generated code and import statements, and then load the code into a Jupyter Notebook cell for further use.</p>
 
 <h2>Options</h2>
 
