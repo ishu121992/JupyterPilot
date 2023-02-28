@@ -3,6 +3,7 @@ import openai
 import time
 import pkg_resources
 from IPython.display import display, Code, clear_output
+import re
 
 class CodetoCell:
     """
@@ -67,11 +68,14 @@ class CodetoCell:
     
     # Parse the code from the response
     def code_parser_input(self,code_list):
+        regex = r"\bIn\[\s*\]:"
         output = ''
         for line in code_list:
             if len(line) == 0:
                 output = output+'\n'
             elif '%' in line:
+                continue
+            elif re.search(regex, line)
                 continue
             elif '#' in line:
                 line = line[1:]
