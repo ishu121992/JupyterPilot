@@ -7,10 +7,10 @@
 
 <p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.8/">Pypi Link</a>, simply run:</p>
 
-<pre><code>Please run pip install jupyterpilot</code></pre>
+<pre><code>pip install jupyterpilot</code></pre>
 
 <h2>Update 0.0.9</h2>
-<p>pip install --upgrade jupyterpilot</p>
+<p>Please run - pip install --upgrade jupyterpilot</p>
 <p>Removed issues where people were getting In[ ]: in code. </p>
 
 <p><i>Note: Most of these errors are model generated. For this exact reason, the code creates a test.py in the same working directory as that of the notebook. User can read and manually or programmatically remove these errors. </p></i>
