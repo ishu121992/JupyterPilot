@@ -12,6 +12,7 @@
 <h2>Update 0.0.9</h2>
 <p>Please run - pip install --upgrade jupyterpilot</p>
 <p>Removed issues where people were getting In[ ]: in code. </p>
+<a href="https://www.youtube.com/watch?v=oQZ2rcxRaiw">Youtube Video with Demo</a>
 
 <p><i>Note: Most of these errors are model generated. For this exact reason, the code creates a test.py in the same working directory as that of the notebook. User can read and manually or programmatically remove these errors. </p></i>
 
