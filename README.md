@@ -5,7 +5,7 @@
 
 <h2>Installation</h2>
 
-<p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.8/">Pypi Link</a>, simply run:</p>
+<p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.9/">Pypi Link</a>, simply run:</p>
 
 <pre><code>pip install jupyterpilot</code></pre>
 
