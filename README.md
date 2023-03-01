@@ -5,11 +5,11 @@
 
 <h2>Installation</h2>
 
-<p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.9/">Pypi Link</a>, simply run:</p>
+<p>To install Jupyter Pilot <a href="https://pypi.org/project/jupyterpilot/0.0.10/">Pypi Link</a>, simply run:</p>
 
 <pre><code>pip install jupyterpilot</code></pre>
 
-<h2>Update 0.0.9</h2>
+<h2>Update 0.0.10</h2>
 <p>Please run - pip install --upgrade jupyterpilot</p>
 <p>Removed issues where people were getting In[ ]: in code. </p>
 <a href="https://www.youtube.com/watch?v=oQZ2rcxRaiw">Youtube Video with Demo</a>
