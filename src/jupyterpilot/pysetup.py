@@ -75,7 +75,7 @@ class CodetoCell:
                 output = output+'\n'
             elif '%' in line:
                 continue
-            elif re.search(regex, line)
+            elif re.search(regex, line):
                 continue
             elif '#' in line:
                 line = line[1:]
