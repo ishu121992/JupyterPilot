@@ -8,6 +8,7 @@
 <p>To install Jupyter Pilot, simply run:</p>
 
 <pre><code>pip install jupyterpilot</code></pre>
+<a href = 'https://pypi.org/project/jupyterpilot/1.0.0/'>PyPi Link</a>
 
 <h2>Update 1.0.0</h2>
 <p>Please run: <i>pip install --upgrade jupyterpilot</i></p>
